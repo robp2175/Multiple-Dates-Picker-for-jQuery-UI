@@ -150,7 +150,7 @@
 					// value have to be extracted before datepicker is initiated
 					//if(options.altField) var inputDates = $(options.altField).val();
 					if(options.separator) this.multiDatesPicker.separator = options.separator;
-					if(!this.multiDatesPicker.separator) this.multiDatesPicker.separator = ', ';
+					if(!this.multiDatesPicker.separator) this.multiDatesPicker.separator = '<br /> ';
 					
 					this.multiDatesPicker.originalBeforeShow = options.beforeShow;
 					this.multiDatesPicker.originalOnSelect = options.onSelect;
